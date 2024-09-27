@@ -34,11 +34,15 @@ jobs:
         run: |
           npm run build
 
+      # Pull latest changes to avoid conflicts
+      - name: Pull latest changes
+        run: git pull origin main || echo "No changes to pull"
+
       # Commit and Push built Admin Files
       - name: Commit and Push built Admin Files
         run: |
           git config --global user.name "JoJoGatito"
           git config --global user.email "jckurutteru@gmail.com"
           git add .
-          git commit -m "Build admin panel on push"
-          git push origin main
+          git commit -m "Build admin panel on push" || echo "No changes to commit"
+          git push origin main --force  # Use --force with caution
