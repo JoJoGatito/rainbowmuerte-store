@@ -1,0 +1,41 @@
+name: Build Admin and Push
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      # Checkout the repository
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        
+      # Set up Node.js
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '22.9.0'
+
+      # Install dependencies
+      - name: Install dependencies
+        run: |
+          npm install
+          npm install @medusajs/medusa-cli -g
+
+      # Build the Admin Panel
+      - name: Build Admin Panel
+        run: |
+          npm run build
+
+      # Commit and Push built Admin Files
+      - name: Commit and Push built Admin Files
+        run: |
+          git config --global user.name "JoJoGatito"
+          git config --global user.email "jckurutteru@gmail.com"
+          git add .
+          git commit -m "Build admin panel on push"
+          git push origin main
