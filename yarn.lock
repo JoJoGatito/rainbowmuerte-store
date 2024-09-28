@@ -4357,6 +4357,11 @@
   resolved "https://registry.npmjs.org/@swc/core-linux-x64-gnu/-/core-linux-x64-gnu-1.4.17.tgz"
   integrity sha512-vRDFATL1oN5oZMImkwbgSHEkp8xG1ofEASBypze01W1Tqto8t+yo6gsp69wzCZBlxldsvPpvFZW55Jq0Rn+UnA==
 
+"@swc/core-linux-x64-musl@1.4.17":
+  version "1.4.17"
+  resolved "https://registry.npmjs.org/@swc/core-linux-x64-musl/-/core-linux-x64-musl-1.4.17.tgz"
+  integrity sha512-zQNPXAXn3nmPqv54JVEN8k2JMEcMTQ6veVuU0p5O+A7KscJq+AGle/7ZQXzpXSfUCXlLMX4wvd+rwfGhh3J4cw==
+
 "@swc/core@^1.0.0", "@swc/core@^1.2.147", "@swc/core@^1.3.61":
   version "1.4.17"
   resolved "https://registry.npmjs.org/@swc/core/-/core-1.4.17.tgz"
