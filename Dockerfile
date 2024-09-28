@@ -4,7 +4,7 @@ FROM node:latest
 WORKDIR /app/medusa
 
 
-COPY package.json yarn.lock ./
+COPY . .
 
 
 RUN apt-get update && apt-get install -y python3 python3-pip python-is-python3
