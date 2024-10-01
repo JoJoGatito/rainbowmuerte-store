@@ -9196,7 +9196,7 @@ medusa-payment-manual@1.0.25:
   resolved "https://registry.yarnpkg.com/medusa-payment-manual/-/medusa-payment-manual-1.0.25.tgz#9d93dbfc13696211993ebe68f87a1acb69f52569"
   integrity sha512-TMwAcI9MU3kDbBaY2WydurG2Y3ZCB+MGiRpGiGkhrvPLyzQ2qPAL13sb8cWXyuLWRdyHB1INGSh+WN26z4SHNw==
 
-medusa-payment-stripe@6.0.11:
+medusa-payment-stripe@^6.0.11:
   version "6.0.11"
   resolved "https://registry.yarnpkg.com/medusa-payment-stripe/-/medusa-payment-stripe-6.0.11.tgz#c519b0a72e9f8f2dadf570d53dbf811d3cc9195b"
   integrity sha512-IRCIWmhz4sWcWZDcYLr3uz9s1BjC0JuWSMT1CtZPijjU3UmkhwtjRUb4xcHB90fNnbNsU5vCk/0K17K0soOUvA==
