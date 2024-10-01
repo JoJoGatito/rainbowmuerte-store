@@ -57,6 +57,9 @@ const plugins = [
     },
   },
   {
+    resolve: `medusa-fulfillment-manual`,
+  },
+  {
     resolve: "@medusajs/admin",
     /** @type {import('@medusajs/admin').PluginOptions} */
     options: {
