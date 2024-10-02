@@ -56,6 +56,13 @@ const plugins = [
       access_token: process.env.IPSTACK_ACCESS_KEY,
     },
   },
+  // Product Feature Display Plugin
+  {
+    resolve: 'medusa-product-feature-display',
+    options: {
+      enableUI: true,
+    },
+  },
   // Stripe Payment Plugin
   {
     resolve: `medusa-payment-stripe`,
