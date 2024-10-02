@@ -57,12 +57,11 @@ const plugins = [
     },
   },
   // Product Feature Display Plugin
-  {
-    resolve: 'medusa-product-feature-display',
-    options: {
-      enableUI: true,
-    },
-  },
+  //{
+  //  resolve: 'medusa-product-feature-display',
+  //  options: {
+  //    enableUI: true,
+    
   // Stripe Payment Plugin
   {
     resolve: `medusa-payment-stripe`,
