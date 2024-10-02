@@ -49,6 +49,14 @@ const plugins = [
       upload_dir: "uploads",
     },
   },
+  // IP Lookup Plugin
+  {
+    resolve: `medusa-plugin-ip-lookup`,
+    options: {
+      access_token: process.env.IPSTACK_ACCESS_KEY,
+    },
+  },
+  // Stripe Payment Plugin
   {
     resolve: `medusa-payment-stripe`,
     options: {
@@ -56,6 +64,7 @@ const plugins = [
       webhook_secret: process.env.STRIPE_WEBHOOK_SECRET,
     },
   },
+  // File Storage Plugin
   {
     resolve: `medusa-file-s3`,
     options: {
@@ -71,6 +80,7 @@ const plugins = [
         prefix: process.env.S3_PREFIX,
     },
   },
+  // Email Plugin
   {
     resolve: `medusa-plugin-sendgrid`,
     options: {
@@ -86,9 +96,11 @@ const plugins = [
       },
     },
   },
+  // Fulfillment Plugin
   {
     resolve: `medusa-fulfillment-manual`,
   },
+  // Admin Plugin
   {
     resolve: "@medusajs/admin",
     /** @type {import('@medusajs/admin').PluginOptions} */
