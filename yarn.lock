@@ -2642,7 +2642,7 @@
   dependencies:
     "@lukeed/csprng" "^1.1.0"
 
-"@medusajs/admin-ui@^2.1.18":
+"@medusajs/admin-ui@^2.1.18", "@medusajs/admin-ui@^2.1.6":
   version "2.1.18"
   resolved "https://registry.yarnpkg.com/@medusajs/admin-ui/-/admin-ui-2.1.18.tgz#c1a7a8c82dbea2204953cdceba83aa16e6e02d53"
   integrity sha512-bUME5vZz455gqkAHErisyP0CsCThIzW3H4pi3z0KyYd6QiOy7Vesm4zBKonR8ddtu897l94QvBJPXqSDCxJE1w==
@@ -2731,6 +2731,29 @@
     webpackbar "^5.0.2"
     zod "^3.22.2"
 
+"@medusajs/admin@7.1.6":
+  version "7.1.6"
+  resolved "https://registry.yarnpkg.com/@medusajs/admin/-/admin-7.1.6.tgz#7613271832de136b22c0d70fe0df2dc57853bc73"
+  integrity sha512-Sfl64efGzzZavIKOvcb4Hq7rrokN73nfLig7Qi9hGo9bQPMTcuOyg8+b2hUYLzq2Bn1BKbB9VAGgATc0JsD1NQ==
+  dependencies:
+    "@medusajs/admin-ui" "^2.1.6"
+    "@rollup/plugin-alias" "5.0.0"
+    "@rollup/plugin-commonjs" "24.1.0"
+    "@rollup/plugin-json" "6.0.0"
+    "@rollup/plugin-node-resolve" "15.0.2"
+    "@rollup/plugin-replace" "5.0.2"
+    "@rollup/plugin-virtual" "^3.0.1"
+    commander "^10.0.0"
+    dotenv "16.3.1"
+    esbuild "0.17.18"
+    express "4.18.2"
+    fs-extra "11.1.0"
+    lodash "^4.17.21"
+    medusa-core-utils "1.2.0"
+    rollup "3.20.7"
+    rollup-plugin-esbuild "5.0.0"
+    ts-dedent "^2.2.0"
+
 "@medusajs/admin@^7.1.16":
   version "7.1.17"
   resolved "https://registry.yarnpkg.com/@medusajs/admin/-/admin-7.1.17.tgz#5521751f6bb35b70f879204c78321a0ca5c743ed"
@@ -2761,7 +2784,7 @@
   dependencies:
     "@medusajs/modules-sdk" "^1.12.12"
 
-"@medusajs/cache-redis@^1.9.2":
+"@medusajs/cache-redis@^1.8.9", "@medusajs/cache-redis@^1.9.2":
   version "1.9.2"
   resolved "https://registry.yarnpkg.com/@medusajs/cache-redis/-/cache-redis-1.9.2.tgz#b30ec5249ea78da66ea33d076e40e5e61fb899d8"
   integrity sha512-Gbq14rYmlrKqwVSk4ze3pscNly4l9LI9QAxU6/GgwolcpoRocWeOJdIXohWBS05GLpyd1LgRCCf2bRaQ3cmiDA==
@@ -2782,7 +2805,7 @@
     awilix "^8.0.1"
     ulid "^2.3.0"
 
-"@medusajs/event-bus-local@1.9.9":
+"@medusajs/event-bus-local@1.9.9", "@medusajs/event-bus-local@^1.9.7":
   version "1.9.9"
   resolved "https://registry.yarnpkg.com/@medusajs/event-bus-local/-/event-bus-local-1.9.9.tgz#96951772044f376fb8ad9a4efa06a18ed53616bb"
   integrity sha512-4KC6kpGjoqooLIUFftTxd/pxQ3f8jTqTZugSXkTr3ptyvlmeGxKkORQowv8izo2GgUL8/00DNg4lW7YmizLxkw==
@@ -2791,7 +2814,7 @@
     "@medusajs/utils" "^1.11.10"
     ulid "^2.3.0"
 
-"@medusajs/event-bus-redis@^1.8.14":
+"@medusajs/event-bus-redis@^1.8.10", "@medusajs/event-bus-redis@^1.8.14":
   version "1.8.14"
   resolved "https://registry.yarnpkg.com/@medusajs/event-bus-redis/-/event-bus-redis-1.8.14.tgz#c6885b5ef2595493433ca7255b4be10b9b0d1c29"
   integrity sha512-+/aM6uD3EJ5qyZEek+QGtXt13if7BRq/hb65elZDqi6QiT3AAW5QQoy3ubD2iLt0YunJN/QNJT4dQF5WtWuT4A==
@@ -2802,7 +2825,7 @@
     bullmq "^5.4.2"
     ioredis "^5.2.5"
 
-"@medusajs/file-local@1.0.4":
+"@medusajs/file-local@1.0.4", "@medusajs/file-local@^1.0.2":
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/@medusajs/file-local/-/file-local-1.0.4.tgz#74716b5f275f943ed7b87ba2cec8b2ed7c1fda16"
   integrity sha512-RXCqmtxYnqJ1IJQEu6zHAVk6IYiOEPJsfZ536H/301+bWzil0ySodyGcr2qaQ+Nrg7EHvnYQy3MjfqDCYQr0Sw==
@@ -2869,7 +2892,7 @@
     retry-axios "^2.6.0"
     uuid "^9.0.0"
 
-"@medusajs/medusa@^1.20.9":
+"@medusajs/medusa@^1.17.4", "@medusajs/medusa@^1.20.9":
   version "1.20.10"
   resolved "https://registry.yarnpkg.com/@medusajs/medusa/-/medusa-1.20.10.tgz#2d8e7c2932b6381feccc1e6813247d428e58306b"
   integrity sha512-dVCFhWFQ2j6PttMepJuZNHwchv1TU44MagmUpA4hcxWum6j8ZXuXM3bDM45+oXTB0htX1lBdV9zHgnIxWVvJTw==
@@ -6461,7 +6484,7 @@ babel-preset-jest@^27.5.1:
     babel-plugin-jest-hoist "^27.5.1"
     babel-preset-current-node-syntax "^1.0.0"
 
-babel-preset-medusa-package@^1.1.19:
+babel-preset-medusa-package@^1.1.13, babel-preset-medusa-package@^1.1.19:
   version "1.1.19"
   resolved "https://registry.yarnpkg.com/babel-preset-medusa-package/-/babel-preset-medusa-package-1.1.19.tgz#6b761cdf16bae007aa779610951c64627bfefcb7"
   integrity sha512-UZemPhNkoLhO4bVLi2QddqD28o4q7hFHHJcbgL68XENS66KchjBXeo5Fng63KALJv+RRe5rqoyY+J/JPdHLGbw==
@@ -7517,6 +7540,11 @@ date-fns@^2.29.3, date-fns@^2.30.0:
   dependencies:
     "@babel/runtime" "^7.21.0"
 
+dayjs@^1.11.9:
+  version "1.11.13"
+  resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.11.13.tgz#92430b0139055c3ebb60150aa13e860a4b5a366c"
+  integrity sha512-oaMBel6gjolK862uaPQOVTA7q3TZhuSvuMQAAglQDOWYO9A91IrAOUJEyKVlqJlHE0vq5p5UXxzdPfMH/x6xNg==
+
 debug@2.6.9, debug@^2.6.0, debug@^2.6.9:
   version "2.6.9"
   resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.9.tgz#5d128515df134ff327e90a4c93f4e077a536341f"
@@ -7790,6 +7818,11 @@ dot-prop@^5.2.0:
   integrity sha512-QM8q3zDe58hqUqjraQOmzZ1LIH9SWQJTlEKCH4kJ2oQvLZk7RbQXvtDM2XEq3fwkV9CCvvH4LA0AV+ogFsBM2Q==
   dependencies:
     is-obj "^2.0.0"
+
+dotenv@16.0.3:
+  version "16.0.3"
+  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-16.0.3.tgz#115aec42bac5053db3c456db30cc243a5a836a07"
+  integrity sha512-7GO6HghkA5fYG9TYnNxi14/7K9f5occMlp3zXAuSxn7CKCxt9xbNWG7yF8hTCSUchlfWSe3uLmlPfigevRItzQ==
 
 dotenv@16.3.1:
   version "16.3.1"
@@ -10341,6 +10374,11 @@ media-typer@0.3.0:
   resolved "https://registry.yarnpkg.com/media-typer/-/media-typer-0.3.0.tgz#8710d7af0aa626f8fffa1ce00168545263255748"
   integrity sha512-dq+qelQ9akHpcOl/gUVRTxVIOkAJ1wR3QAvb4RsVjS8oVoFjDGTc679wJYmUmknUF5HwMLOgb5O+a3KxfWapPQ==
 
+medusa-core-utils@1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/medusa-core-utils/-/medusa-core-utils-1.2.0.tgz#4a2aa9fd63dacda487b220c8e462540990605092"
+  integrity sha512-9mzXGkMsll92C46Ub8A9vwjcfFiHfdkgshwmPP9QpRrm02M6N+SQb45S2A9t0dKjyT9J7rgCCSrFhYQg3pvqbw==
+
 medusa-core-utils@1.2.3, medusa-core-utils@^1.2.3:
   version "1.2.3"
   resolved "https://registry.yarnpkg.com/medusa-core-utils/-/medusa-core-utils-1.2.3.tgz#d6f327c771868122721c470d2f5be3551bdf6f6e"
@@ -10372,7 +10410,7 @@ medusa-fulfillment-manual@^1.1.41:
     express "^4.17.1"
     medusa-core-utils "^1.2.3"
 
-medusa-interfaces@1.3.10:
+medusa-interfaces@1.3.10, medusa-interfaces@^1.3.7:
   version "1.3.10"
   resolved "https://registry.yarnpkg.com/medusa-interfaces/-/medusa-interfaces-1.3.10.tgz#92c41c174becfa303fd6e948e3303063b0fe4d9c"
   integrity sha512-S3J8+W/Wy5zoJML7P5mxGd9gRJTdMaRdpiPAhMeod8MmZGcTKpLRB1Ms8d2+pNDPhmoHJ69SAKaWRxp1w7eCUg==
@@ -10409,6 +10447,27 @@ medusa-plugin-sendgrid@^1.3.13:
     body-parser "^1.19.0"
     express "^4.17.1"
     medusa-core-utils "^1.2.3"
+
+medusa-product-feature-display@^2.1.3:
+  version "2.1.3"
+  resolved "https://registry.yarnpkg.com/medusa-product-feature-display/-/medusa-product-feature-display-2.1.3.tgz#fb492d54f70723e46c773676fb8913361253dacd"
+  integrity sha512-NvVy/e+yAiFxFYoNKAXKvqx7cuEs8EXzmTeFj5CtS4zc87ZwzZRBQWtbG617tkW0m2A+igN77tVnL0Kw5QrraQ==
+  dependencies:
+    "@medusajs/admin" "7.1.6"
+    "@medusajs/cache-redis" "^1.8.9"
+    "@medusajs/event-bus-local" "^1.9.7"
+    "@medusajs/event-bus-redis" "^1.8.10"
+    "@medusajs/file-local" "^1.0.2"
+    "@medusajs/medusa" "^1.17.4"
+    "@tanstack/react-query" "4.22.0"
+    babel-preset-medusa-package "^1.1.13"
+    body-parser "^1.19.0"
+    cors "^2.8.5"
+    dotenv "16.0.3"
+    express "^4.17.2"
+    medusa-interfaces "^1.3.7"
+    prism-react-renderer "^2.0.4"
+    typeorm "^0.3.16"
 
 medusa-react@^9.0.18:
   version "9.0.18"
@@ -12222,6 +12281,11 @@ reflect-metadata@^0.1.13:
   resolved "https://registry.yarnpkg.com/reflect-metadata/-/reflect-metadata-0.1.14.tgz#24cf721fe60677146bb77eeb0e1f9dece3d65859"
   integrity sha512-ZhYeb6nRaXCfhnndflDK8qI6ZQ/YcWZCISRAWICW9XYqMUwjZM9Z0DveWX/ABN01oxSHwVxKQmxeYZSsm0jh5A==
 
+reflect-metadata@^0.2.1:
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/reflect-metadata/-/reflect-metadata-0.2.2.tgz#400c845b6cba87a21f2c65c4aeb158f4fa4d9c5b"
+  integrity sha512-urBwgfrvVP/eAyXx4hluJivBKzuEbSQs9rKWCrCkbSxNv8mxPcUZKeuoF3Uy4mJl3Lwprp6yy5/39VWigZ4K6Q==
+
 regenerate-unicode-properties@^10.1.0:
   version "10.2.0"
   resolved "https://registry.yarnpkg.com/regenerate-unicode-properties/-/regenerate-unicode-properties-10.2.0.tgz#626e39df8c372338ea9b8028d1f99dc3fd9c3db0"
@@ -13394,6 +13458,27 @@ typeorm@0.3.16:
     glob "^8.1.0"
     mkdirp "^2.1.3"
     reflect-metadata "^0.1.13"
+    sha.js "^2.4.11"
+    tslib "^2.5.0"
+    uuid "^9.0.0"
+    yargs "^17.6.2"
+
+typeorm@^0.3.16:
+  version "0.3.20"
+  resolved "https://registry.yarnpkg.com/typeorm/-/typeorm-0.3.20.tgz#4b61d737c6fed4e9f63006f88d58a5e54816b7ab"
+  integrity sha512-sJ0T08dV5eoZroaq9uPKBoNcGslHBR4E4y+EBHs//SiGbblGe7IeduP/IH4ddCcj0qp3PHwDwGnuvqEAnKlq/Q==
+  dependencies:
+    "@sqltools/formatter" "^1.2.5"
+    app-root-path "^3.1.0"
+    buffer "^6.0.3"
+    chalk "^4.1.2"
+    cli-highlight "^2.1.11"
+    dayjs "^1.11.9"
+    debug "^4.3.4"
+    dotenv "^16.0.3"
+    glob "^10.3.10"
+    mkdirp "^2.1.3"
+    reflect-metadata "^0.2.1"
     sha.js "^2.4.11"
     tslib "^2.5.0"
     uuid "^9.0.0"
