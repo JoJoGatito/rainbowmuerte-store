@@ -117,6 +117,13 @@ const plugins = [
       },
     },
   },
+  // Product Reviews Plugin
+  {
+    resolve: `@appateam/medusa-plugin-product-reviews`,
+    options: {
+      enableUI: true
+    }
+  },
 ];
 
 const modules = {
